@@ -1,0 +1,205 @@
+/** { 
+  outline: 1px solid black;
+}*/
+
+*{
+	margin:0;
+}
+
+html, body{
+	height: 100%;
+	width:auto;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	min-width: 950px;
+}
+
+.wrapper{
+	min-height:100%;
+	height: auto !important;
+	height:100%;
+	margin: 0 auto -40px;
+}
+/*
+.footer, .push {
+	height: 40px;
+}*/
+.wrapper:after{
+	content:"";
+	display:block;
+}
+
+.footer, .wrapper:after{
+	height:40px;
+}
+
+.nav{
+	vertical-align: middle;
+}
+.nav li{
+	display: inline-block;
+	float:right; 
+	width: auto;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 5px;
+	margin-right:5px;
+	 /*WHY ISN'T THIS WORKING*/
+	color:#737373;
+	line-height: 36px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.bottom a:link{
+	color:#666A73;
+}
+
+.bottom a:visited{
+	color:#666A73;
+}
+
+.nav a:link{
+	color:#404040;
+}
+
+.nav a:visited{
+	color:#404040;
+}
+
+#signin{
+	border-radius:4px;
+	background-color: #4A90F8;
+	height: 40px;
+	width:70px;
+	vertical-align: middle;
+	color:white;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+
+#grid{
+	vertical-align: middle;
+}
+
+#image{
+
+  padding-top:200px;
+  text-align: center;
+ /*  top:50%;*/
+   /*left:50%;*/
+  
+  /* margin-top: -95px;*/
+  /* margin-left: -269px;*/
+ }
+
+ #image img{
+ 	width:300px;
+ 	display:block;
+ 	margin-left:auto;
+    margin-right: auto;
+
+ }
+ 
+#form{
+	display: block;
+	padding-top: 20px;
+	text-align: center;
+}
+ #form input{
+ 	/*position:fixed;*/
+ 	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:47.5em;
+	height:2em;
+	background-image: url('./Images/microphone.png') ;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-position: right;
+	background-size: 2em;
+	border:1px solid #D8D8D8;
+ }
+
+/*why does this not work when i set the regular border?*/
+#form input:hover{
+	border: 1px solid #B2B2B2;
+}
+.buttonp{
+	/*position: fixed;*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	padding-top: 20px;
+	border:.5px solid #DCDCDC;
+	margin-bottom: 30px;
+}
+
+.buttons{
+	display:inline;
+	border-radius: 1px;
+	border:1px solid #D8D8D8;
+	background-color: #E3E3E3;
+	margin-left: 10px;
+	padding: 7px;
+	color: #444444;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.middle{
+	display:block;
+	text-align: -webkit-center;
+}
+
+.footer{
+	height:40px;
+	bottom:0;
+	width:100%;
+}
+
+ .bottom{
+ 	clear: both;
+	/*position: absolute;*/
+	/*bottom: -20px;*/
+	width:100%;
+	bottom:0;
+	background-color: #F2F2F2;
+	vertical-align: middle;
+	 height: 40px;
+	 color:#666A73;
+	 border-top: 1px solid #E4E4E4;
+	 line-height: 20px;
+ }
+
+
+ .leftmenu{
+ 	display:inline;
+ 	float:left;
+ 	padding: 8px 8px 8px 8px;
+ 	margin-left: 20px;
+ 	vertical-align: middle;
+ 	
+ 
+ }
+
+ .rightmenu{
+ 	display:inline;
+ 	float:right;
+ 	padding: 8px 8px 8px 8px;
+ 	margin-right: 20px;
+ 	vertical-align: middle;
+
+
+ }
